@@ -10,8 +10,6 @@ library(brglm)
 library(pROC)
 
 
-setwd("C:/Users/User/Desktop/ΕΚΕΤΑ/Θωμάς-Αργύρης")
-
 df <- read_excel('Data.xlsx',
                  na = c('not avaliable','Not assessed','not assessed','UNKNOWN','Not avaliable'))
 
